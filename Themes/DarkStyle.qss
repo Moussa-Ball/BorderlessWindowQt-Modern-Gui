@@ -1,0 +1,112 @@
+QWidget {
+        background-color: #303030;
+}
+
+#centralWidget {
+    background-color: #303030;
+    border: none;
+}
+
+#windowTitleBar {
+    background-color: #282828;
+    border-bottom: 0.8px solid #252525;
+}
+
+#titleBarIcon {
+    margin-left: 5px;
+    background: transparent;
+}
+
+QMenuBar {
+    background-color: transparent;
+    color: white;
+    spacing: 10px;
+    border: none;
+}
+
+QMenuBar::item {
+    background: transparent;
+    color: white;
+    padding: 7.4px 10px;
+    border: none;
+}
+
+QMenuBar::item:selected {
+    background: #404040;
+    color: #FFFFFF;
+}
+
+QMenuBar::item:pressed {
+    background: #424242;
+    color: #FFFFFF;
+}
+
+QMenu {
+    background: #424242;
+    color: white;
+}
+
+QMenu#submenu {
+    background: #424242;
+    color: white;
+	border: 1px solid #282828;
+}
+
+QMenu::item {
+    background: #424242;
+	color: #FFFFFF;
+    padding: 2px 25px 2px 20px;
+    border: 1px solid transparent;
+}
+
+QMenu::item:selected {
+    background: #303030;
+	color: #FFFFFF;
+}
+
+QMenu::separator {
+    height: 0.5px;
+    background: #333337;
+    margin: 2px 5px 2px 18px;
+}
+
+#minimizeButton {
+    image: url(:/Icons/IconsCommand/Minimize.png);
+    background-color: transparent; border:none; 
+}
+
+#minimizeButton:hover {
+    background-color: #404040;
+}
+
+#restoreButton {
+    image: url(:/Icons/IconsCommand/Restore.png);
+    background-color: transparent; border:none; 
+}
+
+#restoreButton:hover {
+    background-color: #404040;
+}
+
+#maximizeButton {
+    image: url(:/Icons/IconsCommand/Maximize.png);
+    background-color: transparent; border:none; 
+}
+
+#maximizeButton:hover {
+    background-color: #404040;
+}
+
+#closeButton {
+    image: url(:/Icons/IconsCommand/Close.png);
+    background-color: transparent; border:none; 
+}
+
+#closeButton:hover {
+    background-color: #404040;
+}
+
+QToolTip {
+	background-color: #f1f2f7;
+	border: 1px solid #767676;
+}
