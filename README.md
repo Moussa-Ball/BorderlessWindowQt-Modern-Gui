@@ -8,7 +8,7 @@ Native borderless window for Windows OS. Allows to have a modern gui.
 <br />
 <br />
 
-### Difference from Qt:FramelessWindowHint
+### Possibilities
 * Resizable
 * Draggable
 * Minimize animation
@@ -22,4 +22,4 @@ Native borderless window for Windows OS. Allows to have a modern gui.
 
 ### Support or Contact
 
-Having trouble with? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[contact me](https://twitter.com/Moussa__Ball) if you have a problem with.
