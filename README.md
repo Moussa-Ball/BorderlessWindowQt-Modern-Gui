@@ -3,7 +3,7 @@ Native borderless window for Windows OS. Allows to have a modern gui.
 
 <br />
 <br />
-![ScreenShot](https://raw.githubusercontent.com/deimos1877/BorderlessWindow/master/Screenshots/MainWindow.png)
+![Example 1](https://github.com/Moussa-Ball/BorderlessWindowQt-Modern-Gui/blob/master/window1.png)
 <br />
 <br />
 
