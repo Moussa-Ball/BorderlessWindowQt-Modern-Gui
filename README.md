@@ -4,7 +4,17 @@ Native borderless window for Windows OS. Allows to have a modern gui.
 <br />
 <br />
 <img src="https://github.com/Moussa-Ball/BorderlessWindowQt-Modern-Gui/blob/master/window1.png" data-canonical-src="https://github.com/Moussa-Ball/BorderlessWindowQt-Modern-Gui/blob/master/window1.png" />
-<img src="https://github.com/Moussa-Ball/BorderlessWindowQt-Modern-Gui/blob/master/window1.png" data-canonical-src="https://github.com/Moussa-Ball/BorderlessWindowQt-Modern-Gui/blob/master/window1.png" />
+<img src="https://github.com/Moussa-Ball/BorderlessWindowQt-Modern-Gui/blob/master/window1.png" data-canonical-src="https://github.com/Moussa-Ball/BorderlessWindowQt-Modern-Gui/blob/master/window2.png" />
+<br />
+<br />
+
+### Difference from Qt:FramelessWindowHint
+* Resizable
+* Draggable
+* Minimize animation
+* Aero snap support
+* Aero shake support
+* ALT+Space system menu works
 <br />
 <br />
 
