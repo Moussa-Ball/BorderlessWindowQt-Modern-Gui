@@ -313,6 +313,11 @@ bool Window::nativeEvent(const QByteArray& eventType, void* message, long* resul
 			*result = 0;
 			return true;
 		}
+			
+		case WM_NCPAINT: {
+		    *result = 0;
+		    return false;
+		}
 
 		case WM_NCHITTEST: {
 			*result = 0;
