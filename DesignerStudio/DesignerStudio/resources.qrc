@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/SplashScreen">
+        <file>designer-studio-splash.png</file>
+    </qresource>
+    <qresource prefix="/Icons">
+        <file>DesignerStudio.ico</file>
+    </qresource>
+</RCC>

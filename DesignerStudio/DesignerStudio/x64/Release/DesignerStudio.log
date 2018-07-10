@@ -1,0 +1,12 @@
+﻿La génération a démarré 10/07/2018 21:40:36.
+     1>Projet "H:\Projets StudioSofter\DesignerStudio\DesignerStudio\DesignerStudio.vcxproj" sur le nœud 3 (Build cible(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Projets StudioSofter\DesignerStudio\x64\Release\\DesignerStudio.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.9.2\5.9.2\msvc2017_64\lib qtmain.lib Qt53DCore.lib Qt53DAnimation.lib Qt53DExtras.lib Qt53DInput.lib Qt53DLogic.lib Qt53DRender.lib Qt53DQuick.lib Qt53DQuickAnimation.lib Qt53DQuickExtras.lib Qt53DQuickInput.lib Qt53DQuickRender.lib Qt53DQuickScene2D.lib Qt5AxContainer.lib Qt5AxBase.lib Qt5Bluetooth.lib Qt5Concurrent.lib Qt5Core.lib Qt5DBus.lib Qt5Gamepad.lib Qt5Gui.lib Qt5Help.lib Qt5Location.lib Qt5Multimedia.lib Qt5MultimediaWidgets.lib Qt5Network.lib Qt5Nfc.lib Qt5OpenGL.lib opengl32.lib glu32.lib Qt5OpenGLExtensions.lib Qt5Positioning.lib Qt5PrintSupport.lib Qt5Qml.lib Qt5Quick.lib Qt5QuickWidgets.lib Qt5QuickControls2.lib Qt5QuickTest.lib Qt5Scxml.lib Qt5Sensors.lib Qt5SerialBus.lib Qt5SerialPort.lib Qt5Sql.lib Qt5Svg.lib Qt5Test.lib Qt5UiTools.lib Qt5WebChannel.lib Qt5WebSockets.lib Qt5Widgets.lib Qt5WinExtras.lib Qt5Xml.lib Qt5XmlPatterns.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"H:\Projets StudioSofter\DesignerStudio\x64\Release\DesignerStudio.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Projets StudioSofter\DesignerStudio\x64\Release\DesignerStudio.lib" /MACHINE:X64 x64\Release\qrc_resources.obj
+         x64\Release\main.obj
+         "H:\Projets StudioSofter\DesignerStudio\x64\Release\Studio.Softer.lib"
+         DesignerStudio.vcxproj -> H:\Projets StudioSofter\DesignerStudio\x64\Release\DesignerStudio.exe
+     1>Génération du projet "H:\Projets StudioSofter\DesignerStudio\DesignerStudio\DesignerStudio.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.71
