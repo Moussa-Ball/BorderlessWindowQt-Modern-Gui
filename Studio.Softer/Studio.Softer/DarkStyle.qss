@@ -1,0 +1,309 @@
+#centralWidget {
+    background-color: #282828; 
+    border: none;
+}
+
+#panel {
+	background-color: #383838;
+}
+
+QSplitter::handle {
+     background: #303030;
+ }
+
+ QSplitter::handle:horizontal {
+     width: 1px;
+ }
+
+ QSplitter::handle:vertical {
+     height: 1px;
+ }
+
+ QSplitter::handle:pressed {
+     background: #303030;
+ }
+
+#windowTitleBar {
+    background-color: #282828;
+	border-bottom: 1px solid #202020;
+}
+
+#titleBarIcon {
+    margin-left: 5px;
+    background: transparent;
+}
+
+QMenuBar {
+    background-color: transparent;
+    color: white;
+    spacing: 10px;
+    border: none;
+}
+
+QMenuBar::item {
+    background: transparent;
+    color: white;
+    padding: 7.4px 10px;
+    border: none;
+}
+
+QMenuBar::item:selected {
+    background: #404040;
+    color: #FFFFFF;
+}
+
+QMenuBar::item:pressed {
+    background: #424242;
+    color: #FFFFFF;
+}
+
+QMenu {
+    background: #424242;
+    color: white;
+}
+
+QMenu#submenu {
+    background: #424242;
+    color: white;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+    border: 1px solid #353535;
+}
+
+QMenu::item {
+    background: #424242;
+    color: #FFFFFF;
+    padding: 2px 25px 2px 20px;
+    border: 1px solid transparent;
+}
+
+QMenu::item:selected {
+    background: #303030;
+    color: #FFFFFF;
+}
+
+QMenu::separator {
+    height: 0.5px;
+    background: #333337;
+    margin: 2px 5px 2px 18px;
+}
+
+#minimizeButton {
+    image: url(:/Icons/IconsCommand/Minimize.png); 
+    background-color: transparent; border:none; 
+}
+
+#minimizeButton:hover {
+    background-color: #404040;
+}
+
+#restoreButton {
+    image: url(:/Icons/IconsCommand/Restore.png); 
+    background-color: transparent; border:none; 
+}
+
+#restoreButton:hover {
+    background-color: #404040;
+}
+
+#maximizeButton {
+    image: url(:/Icons/IconsCommand/Maximize.png); 
+    background-color: transparent; border:none; 
+}
+
+#maximizeButton:hover {
+    background-color: #404040;
+}
+
+#closeButton {
+    image: url(:/Icons/IconsCommand/Close.png); 
+    background-color: transparent; border:none; 
+}
+
+#closeButton:hover {
+    background-color: #404040;
+}
+
+#closeButtonPanel {
+    image: url(:/Icons/IconsCommand/Close.png); 
+    background-color: transparent; 
+	border: none;
+}
+
+#closeButtonPanel:hover {
+    background-color: #404040;
+}
+
+QToolTip {
+    background-color: #f1f2f7;
+    border: 1px solid #767676;
+}
+
+
+QStatusBar {
+	background-color: #383838;
+	color: white;
+}
+
+#toolBar {
+    background: #383838;
+	color: #202020;
+    spacing: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: none;
+	border-bottom: 1px solid #252525;
+}
+
+#toolBar::separator {
+	background: #303030;
+	width: 0.5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#toolBarParams {
+    background: #383838;
+	color: #202020;
+    spacing: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: none;
+}
+
+#toolBarParams::separator {
+	background: #303030;
+	width: 0.5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#toolBar::handle {
+	background: url(:/Icons/ToolbarIcons/handle.png);
+	width: 2px;
+	margin: 8px;
+}
+
+#toolBox {
+    background: #383838;
+	spacing: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: none;
+}
+
+#toolBox::handle {
+	background: url(:/Icons/ToolbarIcons/handle-toolbox.png);
+	height: 2px;
+	width: 2px;
+	margin: 8px;
+}
+
+#toolBarButton {
+	background-color: transparent;
+}
+
+#toolBoxButton {
+	background-color: transparent;
+}
+
+QDockWidget {
+	background-color: #383838;
+}
+
+
+/*-------------- Panel Window ---------------------*/
+
+#centralWidgetFloating {
+    background-color: #404040; 
+}
+
+#windowTitleBarFloating {
+    background-color: #323232;
+	border-bottom: 1px solid #202020;
+}
+
+#closeButtonFloating {
+    image: url(:/Icons/IconsCommand/Close.png); 
+    background-color: transparent; border:none; 
+}
+
+#closeButtonFloating:hover {
+    background-color: #404040;
+}
+
+
+/*-------------- Dock System ---------------------*/
+
+ads--ContainerWidget,
+ContainerWidget
+{
+	background: #404040;
+}
+
+ads--ContainerWidget QSplitter::handle,
+ContainerWidget QSplitter::handle
+{
+	background: #101010;
+}
+
+ads--SectionWidget,
+SectionWidget
+{
+	background: #A0A0A0;
+	border: none;
+}
+
+ads--SectionWidget #tabsMenuButton::menu-indicator,
+SectionWidget #tabsMenuButton::menu-indicator
+{
+	image: none;
+}
+
+ads--SectionTitleWidget,
+SectionTitleWidget
+{
+	background: #404040;
+	border-color: #202020;
+	border-style: solid;
+	border: none;
+	padding: 0 9px;
+}
+
+ads--SectionTitleWidget[activeTab="true"],
+SectionTitleWidget[activeTab="true"]
+{
+	background: #282828;
+}
+
+ads--SectionContentWidget,
+SectionContentWidget
+{
+	border-color: transparent;
+	background: #282828;
+	border-style: solid;
+	border: none;
+}
+
+/* Special: QLabels inside SectionTitleWidget
+*/
+ads--SectionTitleWidget QLabel,
+SectionTitleWidget QLabel
+{
+	color: #fff;
+}
+ads--SectionTitleWidget[activeTab="true"] QLabel,
+SectionTitleWidget[activeTab="true"] QLabel
+{
+	color: #fff;
+}
+
+/* Special: QLabels inside SectionTitleWidget, which is floating
+*/
+ads--FloatingWidget ads--SectionTitleWidget QLabel,
+FloatingWidget SectionTitleWidget QLabel
+{
+	color: #fff;
+}

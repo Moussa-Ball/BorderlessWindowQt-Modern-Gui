@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>IconsCommand/Close.png</file>
+        <file>IconsCommand/Maximize.png</file>
+        <file>IconsCommand/Minimize.png</file>
+        <file>IconsCommand/Restore.png</file>
+        <file>icon.png</file>
+    </qresource>
+    <qresource prefix="/themes">
+        <file>DarkStyle.qss</file>
+        <file>LightStyle.qss</file>
+    </qresource>
+</RCC>
